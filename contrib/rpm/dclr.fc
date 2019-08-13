@@ -1,0 +1,8 @@
+/usr/bin/dclr-cli		--	gen_context(system_u:object_r:dclr_exec_t,s0)
+/usr/sbin/dclrd		--	gen_context(system_u:object_r:dclr_exec_t,s0)
+/usr/lib(64)?/dclr/dclrd		--	gen_context(system_u:object_r:dclr_exec_t,s0)
+
+/etc/dclr(/.*)?		gen_context(system_u:object_r:dclr_conf_t,s0)
+/var/lib/dclr(/.*)?		gen_context(system_u:object_r:dclr_var_lib_t,s0)
+
+(/var)?/run/dclrd(/.*)?   gen_context(system_u:object_r:dclr_var_run_t,s0)

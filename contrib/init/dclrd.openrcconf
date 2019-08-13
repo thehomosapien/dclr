@@ -1,0 +1,33 @@
+# /etc/conf.d/dclrd: config file for /etc/init.d/dclrd
+
+# Config file location
+#DCLRD_CONFIGFILE="/etc/dclr/dclr.conf"
+
+# What directory to write pidfile to?  (created and owned by $DCLRD_USER)
+#DCLRD_PIDDIR="/var/run/dclrd"
+
+# What filename to give the pidfile
+#DCLRD_PIDFILE="${DCLRD_PIDDIR}/dclrd.pid"
+
+# Where to write dclrd data (be mindful that the blockchain is large)
+#DCLRD_DATADIR="/var/lib/dclrd"
+
+# User and group to own dclrd process
+#DCLRD_USER="dclr"
+#DCLRD_GROUP="dclr"
+
+# Path to dclrd executable
+#DCLRD_BIN="/usr/bin/dclrd"
+
+# Nice value to run dclrd under
+#DCLRD_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#DCLRD_OPTS=""
+
+# The timeout in seconds OpenRC will wait for dclrd to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+DCLRD_SIGTERM_TIMEOUT=60

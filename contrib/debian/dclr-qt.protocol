@@ -1,0 +1,11 @@
+[Protocol]
+exec=dclr-qt '%u'
+protocol=dclr
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

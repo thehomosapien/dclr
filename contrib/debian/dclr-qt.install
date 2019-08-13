@@ -1,0 +1,6 @@
+usr/local/bin/dclr-qt usr/bin
+share/pixmaps/dclr32.xpm usr/share/pixmaps
+share/pixmaps/dclr16.xpm usr/share/pixmaps
+share/pixmaps/dclr128.png usr/share/pixmaps
+debian/dclr-qt.desktop usr/share/applications
+debian/dclr-qt.protocol usr/share/kde4/services/

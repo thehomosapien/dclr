@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=DCLRcoin Core
+Comment=Connect to the DCLR P2P Network
+Comment[de]=Verbinde mit dem DCLR peer-to-peer Netzwerk
+Comment[fr]=DCLR, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=DCLR, eşten eşe kriptografik sanal para birimi
+Exec=dclr-qt %u
+Terminal=false
+Type=Application
+Icon=dclr128
+MimeType=x-scheme-handler/dclr;
+Categories=Office;Finance;
